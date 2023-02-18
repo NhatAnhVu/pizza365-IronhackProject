@@ -7,7 +7,7 @@ import carousel4 from '../images/4.jpg'
 
 const CarouselBootstrap = () => {
   return (
-    <div className='section carousel'>
+    <div className='section carousel' id='carousel'>
       <h1 className='carousel__title'>pizza 365</h1>
       <p className="carousel__slogan">Truly Italian!</p>
       <Carousel className='carousel__bootstrap'>

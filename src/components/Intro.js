@@ -2,7 +2,7 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div className='section intro'>
+    <div className='section intro' id='intro'>
       <h2 className="title">Tại sao lại Pizza 365</h2>
       <div className="intro__reasons">
         <div className="reason reason--1">

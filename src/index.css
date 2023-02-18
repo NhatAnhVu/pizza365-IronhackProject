@@ -9,6 +9,7 @@
 
 * {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -20,6 +21,7 @@ body {
   width: 80%;
   margin: 0 auto;
   margin-top: 2em;
+  max-width: 1300px;
 }
 
 .navbar {

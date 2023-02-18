@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 const PizzaSize = () => {
   return (
-    <div className='section pizza-size'>
+    <div className='section pizza-size' id='pizza-size'>
       <h2 className="title">Chọn size pizza</h2>
       <p className='pizza-size__desc'>Chọn combo pizza phù hợp với nhu cầu của bạn</p>
       <div className="pizza-card">
