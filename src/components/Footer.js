@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <h4>Footer</h4>
-      <button>To the top</button>
+      <a href="#carousel">To the top</a>
       <div className="footer__icons">
       <i className="fa-brands fa-facebook"></i>
       <i className="fa-brands fa-instagram"></i>

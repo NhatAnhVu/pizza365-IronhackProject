@@ -156,11 +156,14 @@ body {
   padding: 1em 0;
 }
 
-.footer button {
+.footer a {
   background-color: var(--clr-dark);
   color: var(--clr-light);
   border: none;
   border-radius: 5px;
+  text-decoration: none;
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer i {
