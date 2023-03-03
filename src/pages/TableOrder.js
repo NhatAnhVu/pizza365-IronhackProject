@@ -22,7 +22,7 @@ const TableOrder = () => {
   }, []);
 
   return (
-    <div>
+    <div className="tableOrder">
       {showModal === "delete" && (
         <ModelDelete
           orderList={orderList}
@@ -40,7 +40,7 @@ const TableOrder = () => {
           setShowModal={setShowModal}
         />
       )}
-      <Table striped bordered hover className="tableOrder">
+      <Table striped bordered hover>
         <thead>
           <tr>
             <th>OrderCode</th>

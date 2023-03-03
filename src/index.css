@@ -171,7 +171,9 @@ body {
 }
 
 .tableOrder {
-  margin: 2em;
+  margin: 2em auto;
+  width: 90%;
+  
 }
 
 .action {
