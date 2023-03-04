@@ -13,6 +13,8 @@ Users should be able to:
   - Staffs can edit or delete order
 
 ### Screenshot
+<img src="https://user-images.githubusercontent.com/126160990/222911788-b789a1ab-d667-4a8a-89e6-a496bda5fa85.png" width="40%">
+<img src="https://user-images.githubusercontent.com/126160990/222912005-d707c957-2f86-4a1e-b6c0-f39c6791dc3c.png" width="40%">
 
 ### Links
 
