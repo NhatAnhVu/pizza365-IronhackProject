@@ -3,6 +3,7 @@ import { Table } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import ModalEdit from "../components/ModalEdit";
 import ModelDelete from "../components/ModelDelete";
+import { Link } from "react-router-dom";
 
 const TableOrder = () => {
   const [orderList, setOrderList] = useState([]);
@@ -23,6 +24,11 @@ const TableOrder = () => {
 
   return (
     <div className="tableOrder">
+      <Link to='/' className="backButton">
+        <Button>
+          Quay về trang dành cho khách hàng
+        </Button>
+      </Link>
       {showModal === "delete" && (
         <ModelDelete
           orderList={orderList}
@@ -40,7 +46,7 @@ const TableOrder = () => {
           setShowModal={setShowModal}
         />
       )}
-      <Table striped bordered hover>
+      <Table striped bordered hover className="table">
         <thead>
           <tr>
             <th>OrderCode</th>
@@ -80,7 +86,7 @@ const TableOrder = () => {
                     onClick={() => {
                       setShowModal("edit");
                       setSelectedOrderId(id);
-                      setSelectedOrderCode(orderCode)
+                      setSelectedOrderCode(orderCode);
                     }}
                   >
                     Edit
