@@ -41,7 +41,6 @@ const Home = () => {
       setPizzaSize(pizzaSizeData[2]);
     }
   };
-  console.log(pizzaSize);
 
   const handleSelectPizzaType = (type) => {
     setSelectedTypeButton(type);
@@ -55,12 +54,10 @@ const Home = () => {
       setPizzaType(pizzaTypeData[2]);
     }
   };
-  console.log(pizzaType);
 
   const handleSelectDrink = (event) => {
     setDrink(event.target.value);
   };
-  console.log(drink);
 
   return (
     <div>
